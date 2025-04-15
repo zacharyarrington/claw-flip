@@ -52,12 +52,22 @@ const flipCoin = () => {
   cursor: pointer;
 }
 
+.coinContainer :focus {
+  outline: none;
+}
+
+
 .coin {
   position: relative;
   width: 300px;
   height: 300px;
   transition: transform 0.5s;
 }
+
+.coin :focus {
+  outline: none;
+}
+
 .coinButton {
   border: none;
   padding: 10px 20px;
